@@ -22,6 +22,7 @@ CVE                                                                             
 [CVE-2020-0543](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0543)   | Special Register Buffer Data Sampling               | SRBDS
 [CVE-2022-0001](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0001)   | Branch History Injection                            | BHI
 [CVE-2022-0002](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0002)   | Intra-Mode Branch Target Injection                  | Intra-Mode BTI
+[CVE-2022-21127](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21127) | Special Register Buffer Data Sampling               | SRBDS Update
 
 Supported operating systems:
 - Linux (all versions, flavors and distros)
@@ -176,6 +177,7 @@ docker run --rm --privileged -v /boot:/boot:ro -v /dev/cpu:/dev/cpu:ro -v /lib/m
    - Performance impact of the mitigation: low to significant
 
 **CVE-2020-0543** Special Register Buffer Data Sampling (SRBDS)
+**CVE-2022-21127** Special Register Buffer Data Sampling (SRBDS) Update
 
    - Impact: Kernel
    - Mitigation: microcode update + kernel update helping to protect various CPU internal buffers from unprivileged speculative access to data
