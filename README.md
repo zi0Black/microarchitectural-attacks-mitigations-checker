@@ -53,8 +53,8 @@ All these questions (and more) have detailed answers in the [FAQ](FAQ.md), pleas
 - Get the latest version of the script using `curl` *or* `wget`
 
 ```bash
-curl -L https://meltdown.ovh -o spectre-meltdown-checker.sh
-wget https://meltdown.ovh -O spectre-meltdown-checker.sh
+curl -L https://raw.githubusercontent.com/zi0Black/microarchitectural-attacks-mitigations-checker/master/spectre-meltdown-checker.sh -o spectre-meltdown-checker.sh
+wget https://raw.githubusercontent.com/zi0Black/microarchitectural-attacks-mitigations-checker/master/spectre-meltdown-checker.sh -O spectre-meltdown-checker.sh
 ```
 
 - Inspect the script. You never blindly run scripts you downloaded from the Internet, do you?
